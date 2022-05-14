@@ -1,4 +1,4 @@
-h1 {
-    color: rgb(19, 145, 255);
+#naslov, h1 {
+    color: rgb(0, 135, 175);
     text-align: center;
 }
