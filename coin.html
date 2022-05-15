@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip A Coin</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/coin.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="ttl">It's always 50/50 :)</h1>
+        <h1 id="wins">WINS - 0</h1>
+        <div class="coin" id="coin">
+            <div id="divHeads" class="heads">
+                <img id="heads" src="heads.svg">
+            </div>
+            <div id="divTails" class="tails">
+                <img id="tails" src="tails.svg">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="flip-button">
+                Flip Coin
+            </button>
+            <p style="padding: 10px;">Choose your preffered coin!</p>
+            <select id="opcije">
+                <option>Heads</option>
+                <option>Tails</option>
+            </select>
+        </div>
+    </div>
+    <script src="coin.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+body {
+  margin: auto;
+  text-align: center;
+  height: 1000000px;
+  /* Used to enable scrolling */
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(1%, #0fb8ad), color-stop(51%, #ff3f09), color-stop(85%, #000000));
+  background: linear-gradient(#ffffff 0%, #0fb8ad 1%, #ff3f09 51%, #000000 85%);
+}
+
+/*
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+*/
+body #err404 {
+  font-size: 700%;
+}
+
+body #404text {
+  font-size: 200%;
+}
+
+body #disc {
+  margin-top: 1000px;
+  width: 200px;
+  height: 200px;
+  background: #00bbff;
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+  -webkit-transform: rotate(1s);
+          transform: rotate(1s);
+}
+
+body #disc:hover {
+  width: 400px;
+  height: 500px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+/*# sourceMappingURL=void.css.map */
