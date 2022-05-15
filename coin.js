@@ -4,7 +4,7 @@ let coin = document.querySelector(".coin");
 let flipBtn = document.querySelector("#flip-button");
 let resetBtn = document.querySelector("#reset-button");
 let counter = 0
-let won = 0
+let won = 0 
 
 flipBtn.addEventListener("click", () => {
     counter++

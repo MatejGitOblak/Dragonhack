@@ -1,27 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 body {
   margin: auto;
   text-align: center;
-  height: 1000000px;
+  height: 110000px;
   /* Used to enable scrolling */
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), color-stop(1%, #0fb8ad), color-stop(51%, #ff3f09), color-stop(85%, #000000));
-  background: linear-gradient(#ffffff 0%, #0fb8ad 1%, #ff3f09 51%, #000000 85%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#E5EBF0), color-stop(10%, #AB1B63), color-stop(20%, #6C08DE), color-stop(30%, #D7DFE4), color-stop(40%, #1CA3D9), color-stop(50%, #4ACE36), color-stop(60%, #303F4F), color-stop(70%, #E6CB1E), color-stop(80%, #0061E0), color-stop(90%, #ff0000), to(#000000));
+  background: linear-gradient(#E5EBF0 0%, #AB1B63 10%, #6C08DE 20%, #D7DFE4 30%, #1CA3D9 40%, #4ACE36 50%, #303F4F 60%, #E6CB1E 70%, #0061E0 80%, #ff0000 90%, #000000 100%);
 }
 
-/*
-html {
-    overflow: scroll;
-    overflow-x: hidden;
-}
-::-webkit-scrollbar {
-    width: 0;
-    background: transparent;
-}
-::-webkit-scrollbar-thumb {
-    background: #FF0000;
-}
-
-*/
 body #err404 {
   font-size: 700%;
 }
@@ -30,21 +17,283 @@ body #404text {
   font-size: 200%;
 }
 
-body #disc {
-  margin-top: 1000px;
-  width: 200px;
-  height: 200px;
-  background: #00bbff;
-  -webkit-transition: width 1s, height 1s;
-  transition: width 1s, height 1s;
-  -webkit-transform: rotate(1s);
-          transform: rotate(1s);
+body div {
+  margin: auto;
+  margin-top: 10000px;
+  height: 10000px;
+  width: 100%;
 }
 
-body #disc:hover {
+body div #hello {
+  margin: auto;
+  margin-top: 200px;
+  font-size: 100px;
+  font-family: 'Koulen', cursive;
+}
+
+body div #r1 {
+  margin-bottom: 200px;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+  background: #830094;
+  border-radius: 5%;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+body div #r2 {
+  margin-top: -200px;
+  margin-left: 200px;
+  width: 150px;
+  height: 150px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  background: #9c00c7;
+  border-radius: 5%;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+body div #r3 {
+  margin-top: 200px;
+  margin-left: 350px;
+  width: 150px;
+  height: 150px;
+  -webkit-transform: rotate(36deg);
+          transform: rotate(36deg);
+  background: #b024d6;
+  border-radius: 5%;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+body div #r4 {
+  margin-top: -300px;
+  margin-right: 300px;
+  width: 200px;
+  height: 200px;
+  -webkit-transform: rotate(36deg);
+          transform: rotate(36deg);
+  background: #5c1370;
+  border-radius: 5%;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+body div #r4 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 1s, opacity 1s linear;
+  transition: visibility 1s, opacity 1s linear;
+}
+
+body div #r5 {
+  margin-top: -400px;
+  margin-right: 300px;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: rotate(36deg);
+          transform: rotate(36deg);
+  background: #410d50;
+  border-radius: 5%;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+body div #r6 {
+  margin-top: 200px;
+  margin-right: 900px;
+  width: 80px;
+  height: 80px;
+  -webkit-transform: rotate(36deg);
+          transform: rotate(36deg);
+  background: #971fb8;
+  border-radius: 5%;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+body div #r7 {
+  margin-top: 0;
+  margin-right: 650px;
+  width: 130px;
+  height: 130px;
+  -webkit-transform: rotate(36deg);
+          transform: rotate(36deg);
+  background: #971fb8;
+  border-radius: 5%;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+body div #r8 {
+  margin-top: -600px;
+  margin-left: 500px;
+  width: 130px;
+  height: 130px;
+  -webkit-transform: rotate(49deg);
+          transform: rotate(49deg);
+  background: #971fb8;
+  border-radius: 5%;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+body div #r9 {
+  margin-top: -100px;
+  margin-left: 900px;
+  width: 130px;
+  height: 130px;
+  -webkit-transform: rotate(79deg);
+          transform: rotate(79deg);
+  background: #501062;
+  border-radius: 5%;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+body div #r1:hover {
+  -webkit-transform: translate(10px, -10px);
+          transform: translate(10px, -10px);
+}
+
+body div #r2:hover {
+  -webkit-transform: translate(0, -10px);
+          transform: translate(0, -10px);
+}
+
+body div #r3:hover {
+  -webkit-transform: translate(10px, -10px);
+          transform: translate(10px, -10px);
+}
+
+body div #r4:hover {
+  -webkit-transform: translate(0, -10px);
+          transform: translate(0, -10px);
+}
+
+body div #r4:hover img {
+  visibility: visible;
+  opacity: 1;
+}
+
+body div #r5:hover {
+  -webkit-transform: translate(10px, -10px);
+          transform: translate(10px, -10px);
+}
+
+body div #r6:hover {
+  -webkit-transform: translate(0, -10px);
+          transform: translate(0, -10px);
+}
+
+body div #r7:hover {
+  -webkit-transform: translate(0, -10px);
+          transform: translate(0, -10px);
+}
+
+body div #r8:hover {
+  -webkit-transform: translate(0, -10px);
+          transform: translate(0, -10px);
+}
+
+body div #r9:hover {
+  -webkit-transform: translate(0, -10px);
+          transform: translate(0, -10px);
+}
+
+body #vmes1 #vmes11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 400px;
-  height: 500px;
-  -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
+  height: 400px;
+  background: #1CA3D9;
+  border-radius: 25%;
+  -webkit-transform: rotate(7deg);
+          transform: rotate(7deg);
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+body #vmes1 #vmes11 h1 {
+  font-family: 'Koulen', cursive;
+  font-size: 80px;
+  padding-top: 15px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 1s, opacity 1s linear;
+  transition: visibility 1s, opacity 1s linear;
+}
+
+body #vmes1 #vmes11:hover h1 {
+  visibility: visible;
+  opacity: 1;
+}
+
+body #vmes2 {
+  height: 200px;
+}
+
+body #vmes2 h1 {
+  font-family: 'Koulen', cursive;
+  font-size: 100px;
+}
+
+body #vmes3 {
+  height: 300px;
+}
+
+body #vmes3 h1 {
+  font-family: 'Koulen', cursive;
+  font-size: 100px;
+}
+
+body #vmes4 {
+  height: 300px;
+}
+
+body #vmes4 h1 {
+  font-family: 'Koulen', cursive;
+  font-size: 100px;
+}
+
+body #vmes5 {
+  height: 300px;
+}
+
+body #vmes5 h1 {
+  font-family: 'Koulen', cursive;
+  font-size: 100px;
+}
+
+body #vmes6 {
+  height: 300px;
+}
+
+body #vmes6 h1 {
+  font-family: 'Koulen', cursive;
+  font-size: 100px;
+}
+
+body #vmes7 {
+  height: 400px;
+}
+
+body #vmes7 h1 {
+  font-family: 'Koulen', cursive;
+  font-size: 100px;
 }
 /*# sourceMappingURL=void.css.map */
