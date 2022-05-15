@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+html {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(163,19,181,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+body {
+    text-align: center;
+    #todo {
+        margin-top: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 50px;
+        font-family: 'Koulen', cursive;
+        background: -webkit-linear-gradient(left, #eee, rgb(0, 0, 0));
+        background-clip: text;
+        font-weight: bold;
+        text-shadow: 2px 2px #000000;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

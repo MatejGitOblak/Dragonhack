@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+html {
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(35%, #a313b5), to(#00d4ff));
+  background: linear-gradient(90deg, #020024 0%, #a313b5 35%, #00d4ff 100%);
+}
+
+body {
+  text-align: center;
+}
+
+body #todo {
+  margin-top: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 50px;
+  font-family: 'Koulen', cursive;
+  background: -webkit-linear-gradient(left, #eee, black);
+  background-clip: text;
+  font-weight: bold;
+  text-shadow: 2px 2px #000000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*# sourceMappingURL=bored.css.map */
