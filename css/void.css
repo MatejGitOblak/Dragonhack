@@ -1,12 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 body {
+  overflow: scroll;
+  overflow-x: hidden;
   margin: auto;
   text-align: center;
   height: 110000px;
   /* Used to enable scrolling */
   background: -webkit-gradient(linear, left top, left bottom, from(#E5EBF0), color-stop(10%, #AB1B63), color-stop(20%, #6C08DE), color-stop(30%, #D7DFE4), color-stop(40%, #1CA3D9), color-stop(50%, #4ACE36), color-stop(60%, #303F4F), color-stop(70%, #E6CB1E), color-stop(80%, #0061E0), color-stop(90%, #ff0000), to(#000000));
   background: linear-gradient(#E5EBF0 0%, #AB1B63 10%, #6C08DE 20%, #D7DFE4 30%, #1CA3D9 40%, #4ACE36 50%, #303F4F 60%, #E6CB1E 70%, #0061E0 80%, #ff0000 90%, #000000 100%);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
 }
 
 body #err404 {
