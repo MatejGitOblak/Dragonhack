@@ -2,11 +2,18 @@ clock = document.getElementById('buttonClock')
 goToVoid = document.getElementById('void')
 coin = document.getElementById('coin')
 bored = document.getElementById('api')
+dice = document.getElementById('dice')
 
 clock.addEventListener('click', clockFun)
 goToVoid.addEventListener('click', voidFun)
 coin.addEventListener('click', coinFun)
 bored.addEventListener('click', boredFun)
+dice.addEventListener('click', diceFun)
+
+function diceFun() {
+    window.location.replace("./DiceRoll.html")
+    window.history.pushState({}, '', '/../index.html');
+}
 
 function boredFun() {
     window.location.replace("./bored.html")
