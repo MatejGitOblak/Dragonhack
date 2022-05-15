@@ -11,13 +11,24 @@ body {
   text-align: center;
 }
 
+body h1 {
+  font-size: 500%;
+  padding-top: 10%;
+  background: radial-gradient(100% 100% at 100% 0, #000000 0, #283178 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #buttons {
-  -ms-grid-columns: 100px 100px;
-      grid-template-columns: 100px 100px;
-  -ms-grid-rows: 100px 100px;
-      grid-template-rows: 100px 100px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding: 10px;
+  height: 300px;
   margin: auto;
+  margin-top: 5%;
   text-align: center;
   display: block;
   -ms-flex-line-pack: center;
@@ -25,6 +36,10 @@ body {
 }
 
 #buttons #void {
+  width: 250px;
+  height: 150px;
+  margin-right: 10px;
+  margin-left: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -33,7 +48,7 @@ body {
           appearance: none;
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
   border: 0;
-  border-radius: 6px;
+  border-radius: 5%;
   -webkit-box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
           box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
   -webkit-box-sizing: border-box;
@@ -44,7 +59,6 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: "JetBrains Mono",monospace;
-  height: 48px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -71,18 +85,6 @@ body {
   font-size: 18px;
 }
 
-#buttons #void:focus {
-  -webkit-box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
-          box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
-}
-
-#buttons #void:hover {
-  -webkit-box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
-          box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-}
-
 #buttons #void:active {
   -webkit-box-shadow: #3c4fe0 0 3px 7px inset;
           box-shadow: #3c4fe0 0 3px 7px inset;
@@ -91,6 +93,10 @@ body {
 }
 
 #buttons button {
+  width: 250px;
+  height: 150px;
+  margin-right: 10px;
+  margin-left: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -99,7 +105,7 @@ body {
           appearance: none;
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
   border: 0;
-  border-radius: 6px;
+  border-radius: 5%;
   -webkit-box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
           box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
   -webkit-box-sizing: border-box;
@@ -110,7 +116,6 @@ body {
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: "JetBrains Mono",monospace;
-  height: 48px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

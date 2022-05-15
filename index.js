@@ -1,22 +1,13 @@
-dice = document.getElementById('buttonDiceRoll')
 clock = document.getElementById('buttonClock')
 goToVoid = document.getElementById('void')
-calculator = document.getElementById('calculator')
 coin = document.getElementById('coin')
 
-dice.addEventListener('click', diceFun)
 clock.addEventListener('click', clockFun)
 goToVoid.addEventListener('click', voidFun)
-calculator.addEventListener('click', calculatorFun)
 coin.addEventListener('click', coinFun)
 
 function coinFun() {
     window.location.replace("./coin.html")
-    window.history.pushState({}, '', '/../index.html');
-}
-
-function diceFun() {
-    window.location.replace("./diceRoll.html")
     window.history.pushState({}, '', '/../index.html');
 }
 
@@ -54,9 +45,4 @@ function voidFun() {
         window.location.replace("./void.html")
         window.history.pushState({}, '', '/../index.html');
     }
-}
-
-function calculatorFun() {
-    window.location.replace("./calculator.html")
-    window.history.pushState({}, '', '/../index.html');
 }
