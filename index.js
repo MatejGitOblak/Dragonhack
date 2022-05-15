@@ -1,10 +1,17 @@
 clock = document.getElementById('buttonClock')
 goToVoid = document.getElementById('void')
 coin = document.getElementById('coin')
+bored = document.getElementById('api')
 
 clock.addEventListener('click', clockFun)
 goToVoid.addEventListener('click', voidFun)
 coin.addEventListener('click', coinFun)
+bored.addEventListener('click', boredFun)
+
+function boredFun() {
+    window.location.replace("./bored.html")
+    window.history.pushState({}, '', '/../index.html');
+}
 
 function coinFun() {
     window.location.replace("./coin.html")
