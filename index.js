@@ -12,7 +12,7 @@ function coinFun() {
 }
 
 function clockFun() {
-    window.location.replace("./clock.html")
+    window.location.replace("./testAnim/testAnim.html")
     window.history.pushState({}, '', '/../index.html');
 }
 
